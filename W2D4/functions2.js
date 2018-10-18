@@ -37,6 +37,7 @@ console.log(nesto);
 //4
 
 function occurrences(s, l) {
+  "use strict";
   var sum = 0;
   for (var i = 0; i < s.length; i++) {
     if (s[i] === l) {
@@ -52,6 +53,7 @@ console.log(sum);
 //5
 
 function firstOccurr(s, c) {
+  "use strict";
   var index;
   for (var i = 0; i < s.length; i++) {
     if (s[i] === c) {
@@ -92,6 +94,7 @@ console.log(strrring);
 //7
 
 function stringToArray(s) {
+  "use strict";
   var arr = [];
   for (var i = 0; i < s.length; i++) {
     if (s[i] === " ") {

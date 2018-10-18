@@ -1,6 +1,6 @@
 //Zadatak 1  Write a function to count vowels in a provided string. If you are  not aware of indexOf function, try to use switch statement.
 //Vowels are a, e, i, o, and u as well as A, E, I, O, and U.
-
+"use strict";
 var s = "aaaiiiiiiii";
 function broj(a) {
   var sum = 0;
@@ -83,6 +83,7 @@ console.log(final);
 
 //4. Write a function that takes a number and returns array of its digits.
 function arrOfDigits(a) {
+  "use strict";
   var i;
   var sum = a + "";
   var temp = [];
