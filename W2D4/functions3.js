@@ -1,4 +1,4 @@
-//1
+//1minimum i maximum niza
 
 var arr = [3, 500, 12, 149, 53, 414, 1, 19];
 
