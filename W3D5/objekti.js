@@ -47,3 +47,75 @@ console.log(breakfast2.carbs);
 console.log(breakfast2.isHealty(breakfast2.protein, breakfast2.fats, breakfast2.carbs));
 breakfast2.isBoiled();
 console.log(breakfast2.isFried());
+
+//Week4
+
+
+//type caffe-string
+//strenth-number
+//sugar-number
+//milk-boolean
+
+//addSugar
+//printInfo
+
+function Coffe (type, strength,sugar,milk){
+
+  //var this= {};
+  this.typeofCoffe=type;
+  this.coffeStrength=strength;
+  this.sugar=sugar;
+  this.withMilk=milk;
+
+  this.addSugar =function(){
+    this.sugar ++;
+
+  };
+this.printInfoo=function(){
+  console.log("our coffe is:" + this.typeOfCoffe)
+//1 or 2-->weak
+//3 or 4-->regular
+//5 or 6 -->strong
+
+switch (this.coffeStrength){
+case 1:
+case 2:
+console.log("weak coffe.");
+break;
+case 3:
+case 4:
+console.log("Regular coffe");
+break;
+case 5:
+case 6:
+console.log("Strong coffe");
+break;
+
+}
+// > 2 sweet coffee
+
+if (this.sugar>2){
+  console.log("Super sweet coffe");
+}
+else{
+  console.log("Not sweet coffe");
+
+
+  var milkMessage;
+  milkMessage = (this.withMilk == true)? "with milk";
+  console.log(milk.Message);
+
+var ourCoffe = new Coffe('mocha',6,1,true);
+ourCoffe.printInfoo();
+ourCoffe.addSugar();
+
+}
+}
+}
+
+//
+
+
+
+
+
