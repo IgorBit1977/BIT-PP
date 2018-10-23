@@ -106,6 +106,24 @@ console.log(result = string11.padEnd(8, '0'));
 
 
 
+var string = "js string exercises";
+var niz = string.split('');
+var prvoSlovo = niz.splice(0,1,'J');
+var result = niz.join('');
+console.log(result);
 
 
 
+// 9Write a function to hide email addresses to protect them from unauthorized users.
+
+    // "somerandomaddress@example.com" -> "somerand...@example.com"
+    
+    var email = "somerandomaddress@example.com";
+    var niz = email.split('@');
+    // niz1 = email.split();
+    var drugi = niz;
+    var treci = drugi[0].split("");
+    // console.log(treci);
+    var promena = treci.splice(12, 5, ".",'.','.');
+    var novo = treci.join('') + drugi[1];
+    console.log( novo);
