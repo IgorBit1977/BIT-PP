@@ -60,7 +60,7 @@
         this.relation = relation;
         this.date = new Date(date) ;
         this.listOfPassingers = [];
-        
+
         this.addPassenger = function(passenger){
             this.listOfPassingers.push(this.passenger);
             return this.listOfPassingers;
