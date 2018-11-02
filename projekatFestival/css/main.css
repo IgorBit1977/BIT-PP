@@ -1,0 +1,33 @@
+form {
+    
+    width: 100%;
+    border: 1px solid gray;
+    padding: 2%;
+    border-radius: 10px;
+}
+button{
+    width: 100%;
+}
+select{
+    width: 100%;
+    margin-bottom: 26%;
+}
+ul{
+    margin-top:5%;
+
+}
+li:nth-child(odd){
+    background-color: #eee;
+}
+li{
+    padding: 1%;
+    list-style: none;
+}
+section{
+    padding: 3%;
+    margin: 20% auto;
+    border: 1px solid grey;
+}
+h2{
+    text-align: center;
+}
