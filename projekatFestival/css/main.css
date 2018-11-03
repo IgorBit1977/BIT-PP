@@ -1,0 +1,39 @@
+form {
+    
+    width: 100%;
+    border: 1px solid gray;
+    padding: 2%;
+    border-radius: 10px;
+}
+button{
+    width: 100%;
+}
+select{
+    width: 100%;
+    margin-bottom: 26%;
+}
+ul{
+    margin-top:5%;
+ }
+li:nth-child(odd){
+    background-color: #eee;
+}
+li{
+    padding: 1%;
+    list-style: none;
+}
+section{
+    padding: 1%;
+    margin: 2% auto;
+    border: 1px solid grey;
+}
+h2{
+    text-align: center;
+}
+.borderStyle {
+    border: 2px solid red;
+}
+.drugaForma {
+    margin: 0 auto;
+    padding: 0;
+}
