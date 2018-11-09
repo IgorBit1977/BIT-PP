@@ -1,0 +1,42 @@
+{
+    "movieFestival": [
+        {
+            "name": "Weekend festial",
+            "numberOfMoviesInAllPrograms": "4",
+            "listOfPrograms": [
+                {
+                    "date": "28.10.2017",
+                    "programDuration": "368min",
+                    "listoOfMovies": [
+                        {
+                            "title": "Spiderman",
+                            "length": "133 min",
+                            "genre": "AN"
+                        },
+                        {
+                            "title": "War for the Planet of the Apes",
+                            "length": "140min",
+                            "genre": "DA"
+                        },
+                        {
+                            "title": "The Dark Tower",
+                            "length": "95min",
+                            "genre": "WN"
+                        }
+                    ]
+                },
+                {
+                    "date": "29.10.2017",
+                    "programDuration": "108min",
+                    "listoOfMovies": [
+                        {
+                            "title": "Deadpool",
+                            "length": "108min",
+                            "genre": "CY"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

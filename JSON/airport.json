@@ -1,0 +1,60 @@
+{
+    "airport": {
+        "name": "Nikola Tesla",
+        "numberOfPassengers": "4",
+        "listOfFlights": [
+            {
+                "date": "25.10.2017.",
+                "relation": "Belgrade - Paris",
+                "listOfPassenger": [
+                    {
+                        "passenger": {
+                            "name": "John",
+                            "surname": "Snow"
+                        },
+                        "seat": {
+                            "seatNumber": "1",
+                            "category": "B"
+                        }
+                    },
+                    {
+                        "passenger": {
+                            "name": "Cersei",
+                            "surname": "Lannister"
+                        },
+                        "seat": {
+                            "seatNumber": "2",
+                            "category": "E"
+                        }
+                    }
+                ]
+            },
+            {
+                "date": "11.11.2017",
+                "relation": "Barcelona - Belgrade",
+                "listOfPassenger": [
+                    {
+                        "passenger": {
+                            "name": "Daenerys",
+                            "surname": "Targaryen"
+                        },
+                        "seat": {
+                            "seatNumber": "3",
+                            "category": "E"
+                        }
+                    },
+                    {
+                        "passenger": {
+                            "name": "Tyrion",
+                            "surname": "Lannister"
+                        },
+                        "seat": {
+                            "seatNumber": "4",
+                            "category": "E"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}
